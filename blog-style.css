@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    overflow-x: clip;
+    scroll-behavior: smooth;
+  }
+  .banner{
+    width: 100%;
+    height: 15vh;
+  }
+
+  /* NAVIGATION*/
+  .logo{
+    width: 124px;
+    z-index: 10;
+  }
+  .navbar{
+    padding: 35px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .navi {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+  .navi li {
+    margin: 0 20px;
+  }
+
+ .navi a {
+    text-decoration: none;
+    color: #0057A3;
+    font-size: 15px;
+    font-weight: 535;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  .navi a.active {
+    font-size: 15px;
+  }
+  .navi a.active::after{
+    content: "";
+    position: absolute;
+    justify-content: center;
+    left: 0;
+    left: 50%;
+    bottom: -10px;
+    width: 150%;
+    height: 2.5px;
+    border-radius: 10px;
+    background: #0057A3;
+    transform: translateX(-50%);
+  }
+
+  /* Button Contact*/
+  .btn {
+    padding: 8px 20px ;
+    border: 2px solid #0057A3;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.358);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+/* Articles */
+.our-blog {
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #0057A3;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/* Wedding Trend Section */
+.wedding-trend {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+/* Image Container */
+.image-container img {
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Text Container */
+.text-container {
+    text-align: left;
+    max-width: 500px;
+    margin-left: 40px;
+}
+.text-container1 {
+    text-align: left;
+    max-width: 500px;
+    margin-left: 40px;
+}
+.text-container h2 {
+    margin-left: -100px;
+    font-size: 28px;
+    color: #000;
+}
+.text-container1 h2 {
+    margin-left: -250px;
+    font-size: 28px;
+    color: #000;
+}
+
+.text-container p {
+    margin-left: 60px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.3;
+
+}
+.text-container1 p {
+    margin-left: 60px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.3;
+
+}
+
+/* Read More Button */
+.btn-read{
+    display: inline-block;
+    margin: 30px 0px 30px 315px;
+    padding: 13px 30px;
+    background: #FF6B35;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 30px;
+  }
+  .fa-arrow-right-long{
+    font-size: 15px;
+    margin-left: 16px;
+    justify-content: middle;
+  }
+
+  .custom-line {
+    border: none;
+    height: 2px;          /* Thickness */
+    background-color: #000; /* Color */
+    width: 80%;          /* Adjust Width */
+    margin: 30px auto;   /* Centering */
+  }
+
+/* Footer Section */
+.footer {
+    background: #0057A3;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .logo-footer{
+    margin-top: 30px;
+  }
+  .footer p{
+    font-size: 14px;
+    margin: 40px 400px;
+  }
+  .fa-brands {
+    letter-spacing: 10px;
+  }
+  .social-icons {
+    font-size: 24px;
+    margin: 10px 0;
+  }

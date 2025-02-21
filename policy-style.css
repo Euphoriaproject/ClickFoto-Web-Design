@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    overflow-x: clip;
+    scroll-behavior: smooth;
+  }
+  .banner{
+    width: 100%;
+    height: 15vh;
+  }
+
+  /* NAVIGATION*/
+  .logo{
+    width: 124px;
+    z-index: 10;
+  }
+  .navbar{
+    padding: 35px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .navi {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+  .navi li {
+    margin: 0 20px;
+  }
+
+ .navi a {
+    text-decoration: none;
+    color: #0057A3;
+    font-size: 15px;
+    font-weight: 535;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  .navi a.active {
+    font-size: 15px;
+  }
+  .navi a.active::after{
+    content: "";
+    position: absolute;
+    justify-content: center;
+    left: 0;
+    left: 50%;
+    bottom: -10px;
+    width: 150%;
+    height: 2.5px;
+    border-radius: 10px;
+    background: #0057A3;
+    transform: translateX(-50%);
+  }
+
+  /* Button Contact*/
+  .btn {
+    padding: 8px 20px ;
+    border: 2px solid #0057A3;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.358);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+/* Privacy Policy */
+
+hr {
+    border: none;
+    height: 2px;          /* Thickness */
+    background-color: #000; /* Color */
+    width: 110%;          /* Adjust Width */
+    margin: 30px -55px;   /* Centering */
+  }
+
+.main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 40px -20px 30px;
+}
+
+.main-content p {
+    margin-top: 40px;
+    font-size: 17px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* Footer Section */
+.footer {
+    background: #0057A3;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .logo-footer{
+    margin-top: 30px;
+  }
+  .footer p{
+    font-size: 14px;
+    margin: 40px 400px;
+  }
+  .fa-brands {
+    letter-spacing: 10px;
+  }
+  .social-icons {
+    font-size: 24px;
+    margin: 10px 0;
+  }

@@ -66,7 +66,7 @@
     text-decoration: none;
     color: white;
     font-size: 15px;
-    font-weight: 530;
+    font-weight: 535;
     position: relative;
     padding-bottom: 5px;
   }
@@ -81,7 +81,8 @@
     left: 50%;
     bottom: -10px;
     width: 150%;
-    height: 2px;
+    height: 2.5px;
+    border-radius: 10px;
     background: white;
     transform: translateX(-50%);
   }

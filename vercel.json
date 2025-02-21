@@ -1,3 +1,4 @@
 {
-    "builds": [{ "src": "public/index.html", "use": "@vercel/static" }]
+    "builds": [{ "src": "home.html", "use": "@vercel/static" }]
   }
+  

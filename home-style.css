@@ -12,6 +12,8 @@
     overflow-x: clip;
     scroll-behavior: smooth;
   }
+
+  /*Banner*/
   .banner{
     width: 100%;
     height: 95vh;
@@ -122,7 +124,7 @@
     text-align: center;
   }
   
-  /* Isi Konten  */
+  /* Main Content*/
   .service{
     display: flex;
     justify-content: center;
@@ -151,20 +153,7 @@
   border-radius: 10px;
   overflow: hidden;
 }
-.image-group1 {
-  display: flex;
-  justify-content: flex-start; /* Align to left */
-  align-items: flex-end; /* Align small images to bottom */
-  position: relative;
-  gap: 10px;
-}
-.big-images1 {
-  width: 350px;
-  height: 530px;
-  margin-left: 280px;
-  border-radius: 10px;
-  overflow: hidden;
-}
+/*Wedding Images Content*/
 .small-images {
   width: 250px;
   height: 250px;
@@ -199,6 +188,23 @@
   width: 100%;
   transform: translateY(-30px);
 }
+
+/*Graduation Images Content*/
+.image-group1 {
+  display: flex;
+  justify-content: flex-start; /* Align to left */
+  align-items: flex-end; /* Align small images to bottom */
+  position: relative;
+  gap: 10px;
+}
+.big-images1 {
+  width: 350px;
+  height: 530px;
+  margin-left: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .small-images2 {
   width: 250px;
   height: 250px;
@@ -232,6 +238,7 @@
   transform: translateY(-50px) translateX(-150px);
 }
 
+/*Maternity Images Content*/
 .maternity-images {
   width: 550px;
   height: 300px;
@@ -245,6 +252,8 @@
   width: 100%;
   transform: translateY(-50px) ;
 }
+
+/*Text Content*/
 .text-content {
   max-width: 355px;
 }
@@ -261,6 +270,8 @@
   color: #555;
   line-height: 1.5;
 }
+
+/*Explore Button*/
 .btn-explore{
   display: inline-block;
   margin: 50px 0px 0px 170px;
@@ -278,6 +289,8 @@
   margin-left: 16px;
   justify-content: middle;
 }
+
+/*Line*/
 .custom-line {
   border: none;
   height: 2px;          /* Thickness */
@@ -292,7 +305,8 @@
   width: 100%;          /* Adjust Width */
   margin: 30px auto;   /* Centering */
 }
-/*Review*/
+
+/*Review Content*/
 .reviews {
   text-align: center;
   padding: 50px 20px;

@@ -62,7 +62,12 @@
     background: #0057A3;
     transform: translateX(-50%);
   }
-
+  .navi .fa-xmark {
+    display: none  !important;
+  }
+  .fa-bars {
+    display: none  !important;
+  }
   /* Button Contact*/
   .btn {
     padding: 8px 20px ;
@@ -128,7 +133,7 @@ h2 {
   }
 
   /* RESPONSIVE */
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;

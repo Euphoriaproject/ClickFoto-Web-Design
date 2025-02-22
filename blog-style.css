@@ -64,6 +64,13 @@
     transform: translateX(-50%);
   }
 
+  .navi .fa-xmark {
+    display: none  !important;
+  }
+  .fa-bars {
+    display: none  !important;
+  }
+
   /* Button Contact*/
   .btn {
     padding: 8px 20px ;
@@ -201,7 +208,7 @@ h2 {
 }
 
   /* RESPONSIVE */
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;
@@ -359,7 +366,7 @@ h2 {
 /* Read More Button */
 .btn-read{
   display: inline-block;
-  margin: 30px 0px 30px 130px;
+  margin: 30px 0px 30px 165px;
   padding: 13px 30px;
   background: #FF6B35;
   color: white;

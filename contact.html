@@ -20,6 +20,7 @@
                 <img src="asset/Logo-white.png" class="logo">
                 <nav>
                     <ul class="navi">
+                        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="service.html">Services</a></li>
                         <li><a href="blog.html">Blogs</a></li>
@@ -27,6 +28,7 @@
                         <li><a class ="btn" href="contact.html" style="color: black;">Contact Us</a></li>
                     </ul> 
                 </nav>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </div>
         </div>
         <!--Content-->
@@ -69,6 +71,16 @@
             </div>
         </div>
 
+    <!--JavaScript for Toggle Button-->
+    <script>
+        var links = document.getElementById("links");
+            function showMenu() {
+            links.style.right = "0px";
+            }
+            function hideMenu() {
+            links.style.right = "-300px";
+            }
+    </script>
         
     </body>
 </html>

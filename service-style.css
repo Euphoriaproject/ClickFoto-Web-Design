@@ -64,6 +64,14 @@
     transform: translateX(-50%);
   }
 
+  .navi .fa-xmark {
+    display: none  !important;
+  }
+  .fa-bars {
+    display: none  !important;
+  }
+
+
   /* Button Contact*/
   .btn {
     padding: 8px 20px ;
@@ -279,7 +287,7 @@
   }
 
 /* RESPONSIVE */
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;
@@ -373,6 +381,7 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     max-width: 960px;
+    justify-content: center;
     margin: auto;
 }
 

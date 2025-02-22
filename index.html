@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta name="viewport" content="with=device-width, initial-scale=1">
         <title>ClickFoto</title>
         <link rel="icon" href="asset/Logo.png" type="image/x-icon"/>
         <link rel="stylesheet" href="home-style.css">
@@ -13,20 +13,22 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     </head>
     <body>
-
-        <!-- Banner -->
+        
+        <!--Banner-->
         <div class="banner">
             <div class="navbar">
                 <img src="asset/Logo-white.png" class="logo">
                 <nav>
-                    <ul class="navi">
+                    <ul class="navi" id="links">
+                        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                         <li><a href="Home.html" class="active">Home</a></li>
-                        <li><a href="service.html">Services</a></li>
-                        <li><a href="blog.html">Blogs</a></li>
-                        <li><a href="policy.html">Privacy Policy</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
                         <li><a class ="btn" href="contact.html">Contact Us</a></li>
                     </ul> 
                 </nav>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </div>
             <div class="container">
                 <h1>Capture Your Beautiful 
@@ -175,6 +177,17 @@
         </div>
         <p>© 2025 ClickFoto</p>
     </footer>
+
+<!--JavaScript for Toggle Button-->
+<script>
+    var links = document.getElementById("links");
+        function showMenu() {
+        links.style.right = "0px";
+        }
+        function hideMenu() {
+        links.style.right = "-300px";
+        }
+</script>
 
     </body>
 </html>

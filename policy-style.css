@@ -243,16 +243,38 @@ hr {
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 90px;
-  margin-bottom: 200px;
+  margin-bottom: 30px;
 }
 
-h2 {
+.main-content h2 {
   font-size: 26px;
   margin: 40px 30px 30px;
 }
 
 .main-content p {
   margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-align: justify;
+  color: rgb(78, 78, 78);
+}
+
+.information{
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.information h2{
+  font-size: 20px;
+  margin: 40px 30px 30px;
+}
+
+.information p {
+  margin-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
   font-size: 14px;

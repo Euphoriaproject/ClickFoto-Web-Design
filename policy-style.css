@@ -94,10 +94,10 @@ hr {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 90px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
 }
 
-h2 {
+.main-content h2 {
     font-size: 36px;
     margin: 40px -20px 30px;
 }
@@ -110,6 +110,25 @@ h2 {
     color: rgb(78, 78, 78);
 }
 
+.information{
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.information h2{
+  font-size: 30px;
+  margin: 40px 0px 30px;
+}
+
+.information p {
+  margin-top: 40px;
+  font-size: 17px;
+  margin-bottom: 30px;
+  text-align: justify;
+  color: rgb(78, 78, 78);
+}
 /* Footer Section */
 .footer {
     background: #0057A3;

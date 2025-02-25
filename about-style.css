@@ -148,12 +148,12 @@ h2 {
 
 .about-image {
     position: relative;
-    bottom: 200px;
+    bottom: 0px;
     width: 50%;
     display: flex;
     justify-content: center;
     margin-left: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 0px;
 }
 
 .about-image img {
